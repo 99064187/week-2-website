@@ -224,11 +224,86 @@ li.dropdown {
     margin-left: 10px;
     float: left;
 }
-.text{
-  	width: 1000px;
-  	margin:0 auto;
-  	background-color: green;
+.tekst{
+    float: left;
+    width: 600px;
 }
-.over-ons{
-	max-width:400px;
+
+.lorem{
+    color: grey;
+    max-width: 450px;
+    float: left;
 }
+.contact_container{
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 50px 0;
+}
+    .contact_container_sub{
+        margin: auto;
+        max-width: 900px;
+    }
+        .contact{
+            float: right;
+            width: 220px;
+        }
+
+        .map-marker{
+            color: grey;
+            display: block;
+            height: 60px;
+        }
+
+        .map-marker svg{
+            float: left;
+            width: 30px;
+        }
+
+        .map-marker p{
+            float: right;
+        }
+
+        .mobile{
+            color: grey;
+            display: block;
+            height: 60px;
+        }
+
+        .mobile svg{
+            float: left;
+            width: 30px;
+        }
+
+        .mobile p{
+            float: right;
+        }
+
+        .envelop{
+            color: grey;
+            display: block;
+            height: 60px;
+        }
+
+        .envelop svg{
+            float: left;
+            width: 40px;
+            padding-top: 10px;
+        }
+
+        .envelop p{
+            float: right;
+        }
+
+        .naam{
+        	background-color:#333;
+        	position:relative;
+        	float:left;
+        	width:100%;
+
+        }
+        .naam p{
+        	color:white;
+        	float:right;
+        	margin-right:60px;
+        }
