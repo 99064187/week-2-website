@@ -179,45 +179,35 @@ li.dropdown {
 	background-color:#333;
 	color:white;
 }
+       .blokken{
+    float: left;
+    width: 100%;
+    position: relative;
+    bottom: 65px;
+    display: flex;
+    justify-content: center;
+}
+
+.blok1, .blok2, .blok3{
+    width: 300px;
+    height: 100px;
+    background-color: #ffe718;
+    display: inline-block;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.blok1:hover, .blok2:hover, .blok3:hover{
+    color: white;
+    background-color: #333;
+}
 .footer{
 	padding-top:50px;
     position: relative;
     width: 100%;
 }
 
-.block{
-	position: relative;
-    bottom: 85px;
-    display: flex;
-    justify-content: center;
-}
-.blocken-sub1, .blocken-sub2, .blocken-sub3{
-	width:300px;
-	height:100px;
-	background-color:#ffe718;
-	position:center;
-	display:inline-block;
-	text-align:center;
-	margin:25px;
-}
-.blocken-sub1:hover, .blocken-sub2:hover, .blocken-sub3:hover{
-	color:white;
-	background-color:#333;
-}
 
-.block, h2{
-	font-size: 22px;
-    font-weight: 600;
-}
-.block, p{
-	font-size: 14px;
-    font-weight: 600;
-
-}
-.test{
-	max-width:900px;
-	
-}
 .icon{
     width: 20%;
     margin-top: 10px;
@@ -307,3 +297,50 @@ li.dropdown {
         	float:right;
         	margin-right:60px;
         }
+
+#tekst{
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-top: 324px;
+    padding: 50px 0;
+}
+    .tekst_sub{
+        margin: auto;
+        max-width: 1000px;
+    }
+        .teksten_hover{
+            color: #ffe718;
+            width: 90px;
+            padding: 0;
+            margin: 0;
+            display: contents;
+        }
+        .tekst_sub h1{
+            margin-top: 30px;
+        }
+        .tekst_sub .route{
+            color: #aeb6be;
+        }
+        .tekst_sub p{
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 500;
+        }
+        #dropdown_container{
+            width: 80px;
+        }
+        .teksten_hover_container{
+            display: none;
+            position: absolute;
+            width: 220px;
+            color: #fff;
+            background-color: #AEB6BE;
+            font-size: 13px;
+            padding: 10px;
+        }
+        .teksten_hover:hover .teksten_hover_container {
+            display: block;
+            
+        }
+ 
