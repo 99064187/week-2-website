@@ -86,6 +86,9 @@ li.dropdown {
 	z-index: -1;
 	margin-top: 60px;
 }	
+.banner a {
+    color:white;
+}
 .banner_sub{
 	display:grid;
 	grid-template-columns:300px 300px 300px;
@@ -169,23 +172,33 @@ li.dropdown {
 .geel_right{
 	float: right;
 }
-.geel_right button{
+.geel_right button {
 	border: none;
 	background-color: white;
 	color:black;
 	padding: 12px 35px;
 }
-.geel_right button:hover{
+.geel_right button:hover {
 	background-color:#333;
-	color:white;
 }
-       .blokken{
+a:hover{
+    color:white;
+}
+a{
+    color:#333;
+    text-decoration: none;
+}
+
+.blokken{
     float: left;
     width: 100%;
     position: relative;
     bottom: 65px;
     display: flex;
     justify-content: center;
+}
+a .blokken{
+    color: white;
 }
 
 .blok1, .blok2, .blok3{
