@@ -169,24 +169,22 @@ li.dropdown {
 .geel_left p{
 	margin-left: 15px;
 }
-.geel_right{
-	float: right;
-}
-.geel_right button {
-	border: none;
-	background-color: white;
-	color:black;
-	padding: 12px 35px;
-}
-.geel_right button:hover {
-	background-color:#333;
-}
-a:hover{
-    color:white;
-}
 a{
     color:#333;
     text-decoration: none;
+}
+.geel_right a{
+	float: right;
+    padding: 12px 35px;
+	border: none;
+	background-color: white;
+	color:black; 
+
+}
+
+.geel_right a:hover{
+    color:white;
+    background-color:#333;
 }
 
 .blokken{
@@ -211,7 +209,11 @@ a .blokken{
 }
 
 .blok1:hover, .blok2:hover, .blok3:hover{
-    color: white;
+    color: #fff !important;
+    background-color: #333;
+}
+.blok1:hover, .blok2:hover, .blok3:hover{
+    color: #fff !important;
     background-color: #333;
 }
 .footer{
@@ -356,4 +358,4 @@ a .blokken{
             display: block;
             
         }
- 
+    
